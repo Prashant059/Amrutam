@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{--brand:#1f7a3a}
+html,body,#root{height:100%}
+body{background:#F8F9FA;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial}
+
+
+/* small helper */
+.scrollbar-hide::-webkit-scrollbar{display:none}
