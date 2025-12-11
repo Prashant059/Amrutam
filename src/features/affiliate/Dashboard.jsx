@@ -216,10 +216,13 @@ import OrderIcon from "../../assets/second.png";
 import RevenueIcon from "../../assets/third.png";
 import LinkIcon from "../../assets/fourth.png";
 import SearchInput from "../../components/SearchInput.jsx";
+import Breadcrumb from "../../components/Breadcrumb.jsx";
 
 export default function Dashboard() {
   return (
     <div className="p-4 sm:p-6 lg:p-10 space-y-6 w-full">
+
+      <Breadcrumb />
       
       {/* ---------- TABS ---------- */}
       <Tabs />
